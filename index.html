@@ -884,11 +884,9 @@
                     </div>
                     <div class="form-group">
                         <label id="loginAddressLabel">العنوان التفصيلي</label>
-                        <textarea id="loginAddress" placeholder="شارع، منطقة، مدينة" required></textarea>
+                        <textarea id="loginAddress" name="address" placeholder="شارع، منطقة، مدينة"></textarea>
                     </div>   
-                    <button type="button" class="location-btn" id="locationBtn" onclick="getLocation()">
-                        📍 تحديد موقعي تلقائياً
-                    </button>
+                    <button type="button" id="locationBtn" onclick="getLocation()">تحديد الموقع تلقائياً</button>
                     <p class="location-status" id="locationStatus" style="color: var(--white-50); font-size: 12px; margin-top: 8px; text-align: center;"></p>
                     <button type="submit" class="submit-btn" id="loginSubmit">تأكيد الطلب</button>
                 </form>
